@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Developer Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+     <link href="project2.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <nav>
+            <div class="logo">JS Dev</div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#inspiration">Inspiration</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HOME Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Hi, I'm Peakanyo Mathabathe an Aspiring JavaScript Developer</h1>
+            <p>I'm passionate about building interactive web experiences and constantly learning new technologies in the JavaScript ecosystem.</p>
+            <div>
+                <a href="#contact" class="btn">Get In Touch</a>
+                <a href="#inspiration" class="btn btn-outline">My Inspiration</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="section-title">
+            <h2>About Me</h2>
+            <p>Learn more about my journey into JavaScript development and the skills I'm cultivating.</p>
+        </div>
+        <div class="about-content">
+            <div class="about-img">
+                <img src="images/selfimage.jpg" alt="picture of myself">
+            </div>
+            <div class="about-text">
+                <h3>My Journey into JavaScript</h3>
+                <p>I discovered my passion for coding through JavaScript's versatility and its ability to bring websites to life. What started as simple DOM manipulation has grown into a deep interest in modern frameworks, APIs, and the entire web development ecosystem.</p>
+                <p>I'm currently focused on mastering core JavaScript concepts, ES6+ features, and exploring frameworks like React and Vue.js. I believe in continuous learning and building a strong foundation before diving into specialized areas.</p>
+                
+                <div class="skills">
+                    <h4>Current Focus Areas:</h4>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>JavaScript Fundamentals</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>React</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Node.js Basics</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 60%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Inspiration Section -->
+    <section class="section inspiration" id="inspiration">
+        <div class="section-title">
+            <h2>What Inspires Me</h2>
+            <p>These are some of the things that fuel my passion for JavaScript development.</p>
+        </div>
+        <div class="inspiration-grid">
+            <div class="inspiration-item">
+                <div class="inspiration-img">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="PHOTO OF MYSELF">
+                </div>
+                <div class="inspiration-content">
+                    <h3>The Power of JavaScript</h3>
+                    <p>JavaScript's evolution from a simple scripting language to powering complex applications across platforms inspires me to master its capabilities.</p>
+                </div>
+            </div>
+            <div class="inspiration-item">
+                <div class="inspiration-img">
+                    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Web development">
+                </div>
+                <div class="inspiration-content">
+                    <h3>Creative Problem Solving</h3>
+                    <p>The challenge of breaking down complex problems into elegant solutions drives my passion for development.</p>
+                </div>
+            </div>
+            <div class="inspiration-item">
+                <div class="inspiration-video">
+                    <iframe src="https://www.youtube.com/embed/PkZNo7MFNFg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="inspiration-content">
+                    <h3>Learning From the Best</h3>
+                    <p>This video from freeCodeCamp about JavaScript fundamentals was pivotal in my learning journey.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="section-title">
+            <h2>Get In Touch</h2>
+            <p>I'm always interested in connecting with fellow developers and learning about new opportunities.</p>
+        </div>
+        <div class="contact-form">
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" class="form-control" required></textarea>
+                </div>
+                <button type="submit" class="btn" style="background-color: #6c5ce7; color: white;">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/Pretty-star22"><i class="fab fa-github"></i></a>
+            <a href="httos://www.linkein.com/peakanyo-mathabathe-9b0bbb246?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/kanygmlem?igsh=ZTJwcHUwcm9id3"><i class="fab fa-twitter"></i></a>
+            
+        </div>
+        <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#inspiration">Inspiration</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <p class="copyright">© 2025 Peakanyo Mathabathe Portfolio. All rights reserved.</p>
+    </footer>
+
+    
+</body>
+</html>
